@@ -1,4 +1,4 @@
-(defproject quil/processing-js "0.1.0-SNAPSHOT"
+(defproject quil/processing-js "1.4.8"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
