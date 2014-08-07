@@ -1,14 +1,14 @@
-# processing-js
+# quil/processing-js
 
-A Clojure library designed to ... well, that part is up to you.
+Wrapper of Processing.js library for Google Closure compiler and Leiningen.
 
 ## Usage
 
-FIXME
+```[quil/processing-js "1.4.8"]```
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Norgat
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
