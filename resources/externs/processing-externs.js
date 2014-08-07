@@ -384,6 +384,7 @@ Processing.prototype.lights = function(){};
 Processing.prototype.noLights = function(){};
 Processing.prototype.pointLight = function(v1, v2, v3, nx, ny, nz){};
 Processing.prototype.spotLight = function(v1, v2, v3, nx, ny, nz, angle, concentration){};
+Processing.prototype.normal = function(nx, ny, nz){};
 
 // Lights, Camera Camera
 Processing.prototype.beginCamera = function(){};
@@ -418,3 +419,18 @@ Processing.prototype.shininess = function(shine){};
 
 Processing.prototype.specular = function(arg){};
 Processing.prototype.specular = function(v1, v2, v3){};
+
+
+// Conversion
+Processing.prototype.binary = function(value){};
+Processing.prototype.binary = function(value, digits){};
+Processing.prototype.hex = function(value){};
+Processing.prototype.hex = function(value, digits){};
+Processing.prototype.unbinary = function(str){};
+Processing.prototype.unhex = function(str){};
+
+
+// Unofficial
+Processing.prototype.shearX = function(angle){};
+Processing.prototype.shearY = function(angle){};
+Processing.prototype.randomGaussian = function(){};
