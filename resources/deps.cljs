@@ -1,0 +1,3 @@
+{
+  :externs ["externs/processing.js"]
+}

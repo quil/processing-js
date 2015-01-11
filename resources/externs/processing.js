@@ -1,8 +1,10 @@
-var Processing = {};
 var Processing = function(aCanvas, aCode, aFunctions){};
 
 Processing.name;
 Processing.prototype.getInstanceById = function(id){};
+
+Processing.Sketch = function(attachFunction) {};
+Processing.prototype.PConstants;
 
 // Structure
 Processing.draw;
