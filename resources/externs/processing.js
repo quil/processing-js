@@ -437,5 +437,41 @@ Processing.prototype.shearX = function(angle){};
 Processing.prototype.shearY = function(angle){};
 Processing.prototype.randomGaussian = function(){};
 
+
+// PFont class
+Processing.prototype.PFont = function(name, size){};
+Processing.prototype.PFont.name;
+Processing.prototype.PFont.size;
+Processing.prototype.PFont.glyph;
+Processing.prototype.PFont.ascent;
+Processing.prototype.PFont.descent;
+Processing.prototype.PFont.leading;
+Processing.prototype.PFont.style;
+Processing.prototype.PFont.weight;
+Processing.prototype.PFont.family;
+Processing.prototype.PFont.context2d;
+Processing.prototype.PFont.css;
+Processing.prototype.PFont.PFontCache;
+Processing.prototype.PFont.list = function(){};
+
+// Preloading font
+Processing.prototype.PFont.preloading = {};
+Processing.prototype.PFont.preloading.template;
+Processing.prototype.PFont.preloading.initialized;
+Processing.prototype.PFont.preloading.initialize;
+Processing.prototype.PFont.preloading.getElementWidth;
+Processing.prototype.PFont.preloading.timeAttempted;
+Processing.prototype.PFont.preloading.pending = function(intervallength){};
+Processing.prototype.PFont.preloading.fontList;
+Processing.prototype.PFont.preloading.addedList;
+Processing.prototype.PFont.preloading.add = function(fontSrc){};
+
+
+Processing.prototype.PFont.prototype.caching;
+Processing.prototype.PFont.prototype.getCSSDefinition = function(fontSize, lineHeight){};
+Processing.prototype.PFont.prototype.measureTextWidth = function(string){};
+Processing.prototype.PFont.prototype.measureTextWidthFallback = function(string){};
+Processing.prototype.PFont.prototype.get = function(fontName, fontSize){};
+
 // See https://github.com/quil/quil/issues/182
 window.l;
