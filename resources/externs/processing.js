@@ -436,6 +436,8 @@ Processing.prototype.unhex = function(str){};
 Processing.prototype.shearX = function(angle){};
 Processing.prototype.shearY = function(angle){};
 Processing.prototype.randomGaussian = function(){};
+Processing.disableInit;
 
 // See https://github.com/quil/quil/issues/182
 window.l;
+
